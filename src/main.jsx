@@ -11,7 +11,7 @@ import RouterGuardContext from './context/RouterGuardContext.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <GoogleOAuthProvider clientId="682139106542-ah3nsqrtji1v0e1r2iigk6qs10kv3gcr.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId="37444952326-34bb6545kqlub0psqo2263id6bcmefm3.apps.googleusercontent.com">
         <SearchContextProvider>
         <RouterGuardContext>
             <App />
