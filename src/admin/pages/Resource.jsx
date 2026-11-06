@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Adminheader from "../components/AdminHeader";
 import Sidebar from "../components/Sidebar";
-import { BooksAPI, editBookStatusAPI, getAllUserAPI } from "../../services/allAPI";
+import { BooksAPI, editBookStatusAPI, getAllUserAPI } from "../../services/allApi";
 import { useEffect } from "react";
 import axiosInstance from "../../api/axiosinstance";
 
